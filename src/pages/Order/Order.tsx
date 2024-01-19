@@ -1,13 +1,13 @@
 import styled from "@emotion/styled";
 import Header from "../../components/Header";
-import ProductList from "../../components/ProductsList";
+import ItemList from "../../components/ItemList";
 import Cart from "../../components/Cart";
 
 export default function Order() {
   return (
     <Container>
       <Header />
-      <ProductList />
+      <ItemList />
       <Cart />
     </Container>
   );
